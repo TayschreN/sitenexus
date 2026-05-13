@@ -1,0 +1,65 @@
+body{
+    background-color: #111;
+    color: white;
+    font-family: 'Times';
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+}
+
+h1{
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+section{
+    padding: 40px;
+}
+
+button {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+    button:hover {
+background-color: pink;
+cursor: pointer;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+   .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+   }
+
+   .titulo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   }
+
+   nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+   }
+   
